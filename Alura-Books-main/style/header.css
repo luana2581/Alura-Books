@@ -25,9 +25,8 @@ display: inline-block;
     padding: 1em;
 }
 
-.container__botao:checked ~.lista-menu{
-    display: block;
-   
+.container__botao:checked ~ .lista-menu{
+    display: block;   
 }
 
 .lista-menu{
@@ -39,4 +38,22 @@ display: inline-block;
 .lista-menu__titulo, .lista-menu__item{
     background-color: var(--branco);
     padding: 1em;
+}
+
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-style: 700;
+}
+
+.lista-menu__link{
+    background: var(--azul-degrade);
+    -webkit-backgroud-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container__botao{
+    display: none;
 }
