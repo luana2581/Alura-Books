@@ -9,6 +9,7 @@
     --laranja:#EB9B00;
     --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #3265B9 165.7%);
     --fonte-principal: "Poppins";
+    --azul: #002f52;
 }
 
 *{
